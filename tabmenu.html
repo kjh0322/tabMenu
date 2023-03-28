@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>탭메뉴 만들기</title>
+	<link rel="stylesheet" type="text/css" href="css/tabStyle.css">
+	
+	<script src="js/jquery-3.6.0.min.js"></script>	<!-- 제이쿼리 플임워크 연결 -->
+	
+	<script src="js/tabScript.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>탭메뉴 만들기</h1>
+	</header>
+	
+	<section>
+		<h2>▶ 다음 컨텐츠의 일부분인 탭메뉴 만들기</h2>
+		<div class="tabMenuWrap">
+		
+			<div class="tabNavi">
+				<ul>
+					<li class="on"><a href="#">카페</a></li>
+					<li><a href="#">브런치</a></li>
+					<li><a href="#">티스토리</a></li>
+					<li><a href="#">카카오스토리</a></li>
+				</ul>
+			</div>
+			
+			<div class="tabNaviContent">
+			
+				<!-- 카페 영역 -->
+				<div id="cafe" class="box">
+					<ul>
+						<li><a href="#">
+							<span class="imgArea"><img src="images/cafe1.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/cafe2.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li>
+							<ul>
+								<li><a href="#">남편이 외과의사라서 좋은점 </a></li>
+								<li><a href="#">치즈 돈까지 리뷰.jpg</a></li>
+								<li><a href="#">보이스피싱 전화가 왔는데 우리집 강아지를 찾는다.txt</a></li>
+								<li><a href="#">젖은 나뭇가지에 불이 잘 안 붙는 이유.gif</a></li>
+								<li><a href="#">좋은 일 생기면 가족들과 공유한다는 박명수 좋은 일 생기면 가족들과 공유한다는 박명수</a></li>
+								<li><a href="#">한국스타일이 되어버린 하울정식 </a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+				<!-- 브런치 영역 -->
+				<div id="brunch" class="box">
+					<ul>
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab1.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab2.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab3.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab4.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+					</ul>
+				</div>
+			
+				<!-- 티스토리 영역 -->
+				<div id="tistory" class="box">
+					<ul>
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab5.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab6.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab7.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab8.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+					</ul>
+				</div>
+				
+				<!-- 카카오스토리 영역 -->
+				<div id="kakaostory" class="box">
+					<ul>
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab9.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab10.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab11.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+						
+						<li><a href="#">
+							<span class="imgArea"><img src="images/tab12.jpg" alt=""></span><br/>
+							<span class="txtArea">무료로 받을 수 있는 걸,<br/>
+							돈주고 사네</span><br/>
+							<em>I LOVE NBA</em>
+						</a></li>
+					</ul>
+				</div>
+			
+				
+			</div>
+			
+			<div class="count">
+			</div>
+			
+			<div class="tabMenuBtn">
+				<button type="button" class="prevBtn">&lt;</button>
+				<button type="button" class="nextBtn">&gt;</button>
+			</div>
+		
+		</div>
+	</section>
+</body>
+</html>
